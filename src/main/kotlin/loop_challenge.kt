@@ -6,7 +6,7 @@ fun main(){
             continue
         }
         counter++
-        println(i)
+        println(i) //Print
     }
     println("The number of even numbers are: $counter")
 }

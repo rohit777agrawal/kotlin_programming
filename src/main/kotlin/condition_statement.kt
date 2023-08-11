@@ -1,5 +1,5 @@
 fun main() {
-    var alarm = 12
+    var alarm = 92
 
     if (alarm == 12){
         println("Ring! Ring!")
@@ -13,6 +13,7 @@ fun main() {
         24 -> println("No ring!")
         7 -> println("No ring")
         57, 1, 19 -> println("Multi-Alarm System")
+        in 90..99 -> println("Multi-Range Alarm")
         else -> println("Don't know!")
     }
 }
